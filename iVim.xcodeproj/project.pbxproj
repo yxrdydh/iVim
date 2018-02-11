@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2293CA321FDC7DAB00A96ADC /* libpdftex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA2D1FDC7DAA00A96ADC /* libpdftex.dylib */; };
-		2293CA331FDC7DAB00A96ADC /* libtexlua52.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA2E1FDC7DAA00A96ADC /* libtexlua52.5.dylib */; };
-		2293CA341FDC7DAB00A96ADC /* libbibtex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA2F1FDC7DAA00A96ADC /* libbibtex.dylib */; };
-		2293CA351FDC7DAB00A96ADC /* libkpathsea.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA301FDC7DAB00A96ADC /* libkpathsea.6.dylib */; };
-		2293CA361FDC7DAB00A96ADC /* libluatex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA311FDC7DAB00A96ADC /* libluatex.dylib */; };
-		2293CA371FDC7DB300A96ADC /* libbibtex.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA2F1FDC7DAA00A96ADC /* libbibtex.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2293CA381FDC7DB300A96ADC /* libkpathsea.6.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA301FDC7DAB00A96ADC /* libkpathsea.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2293CA391FDC7DB300A96ADC /* libluatex.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA311FDC7DAB00A96ADC /* libluatex.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2293CA3A1FDC7DB300A96ADC /* libpdftex.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA2D1FDC7DAA00A96ADC /* libpdftex.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2293CA3B1FDC7DB300A96ADC /* libtexlua52.5.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2293CA2E1FDC7DAA00A96ADC /* libtexlua52.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22CE288E201E7D0500C5FACE /* if_python.c in Sources */ = {isa = PBXBuildFile; fileRef = DE44DC301F209A93007AFD63 /* if_python.c */; settings = {COMPILER_FLAGS = "-v -I../python_ios/Python-2.7.13//Include/"; }; };
+		22CE2894201E852100C5FACE /* vimproc_ios.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE2893201E852100C5FACE /* vimproc_ios.dylib */; };
 		22D364031FC37D95008A8A76 /* if_lua.c in Sources */ = {isa = PBXBuildFile; fileRef = DE44DC271F209A93007AFD63 /* if_lua.c */; settings = {COMPILER_FLAGS = "-I ../lua_ios/lua-5.3.4/src/"; }; };
-		22D3640F1FC45ECA008A8A76 /* if_python.c in Sources */ = {isa = PBXBuildFile; fileRef = DE44DC301F209A93007AFD63 /* if_python.c */; settings = {COMPILER_FLAGS = "-I ../python_ios/Python-2.7.13/Include/ -I ../python_ios/"; }; };
+		22E837EF2021F6FF004B6BA1 /* Python_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E837ED2021F6FF004B6BA1 /* Python_ios.framework */; };
+		22E837F02021F6FF004B6BA1 /* lua_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E837EE2021F6FF004B6BA1 /* lua_ios.framework */; };
+		22E838192021F817004B6BA1 /* libcurl.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838092021F812004B6BA1 /* libcurl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E8381A2021F817004B6BA1 /* libawk.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E8380A2021F812004B6BA1 /* libawk.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E8381B2021F817004B6BA1 /* libshell.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E8380B2021F813004B6BA1 /* libshell.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E8381C2021F817004B6BA1 /* libfiles.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E8380C2021F813004B6BA1 /* libfiles.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E8381D2021F817004B6BA1 /* libbibtex.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E8380D2021F813004B6BA1 /* libbibtex.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E8381E2021F817004B6BA1 /* libtar.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E8380F2021F814004B6BA1 /* libtar.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E8381F2021F817004B6BA1 /* libluatex.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838102021F814004B6BA1 /* libluatex.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E838202021F817004B6BA1 /* libpdftex.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838112021F815004B6BA1 /* libpdftex.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E838212021F817004B6BA1 /* Python_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838122021F815004B6BA1 /* Python_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22E838222021F817004B6BA1 /* libssh_cmd.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838132021F815004B6BA1 /* libssh_cmd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E838232021F817004B6BA1 /* libtexlua52.5.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838142021F816004B6BA1 /* libtexlua52.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E838242021F817004B6BA1 /* vimproc_ios.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838152021F816004B6BA1 /* vimproc_ios.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E838252021F817004B6BA1 /* libtext.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838162021F816004B6BA1 /* libtext.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22E838262021F817004B6BA1 /* lua_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838172021F816004B6BA1 /* lua_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22E838272021F817004B6BA1 /* libkpathsea.6.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E838182021F817004B6BA1 /* libkpathsea.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		22FE48C71FDC79C500899DA7 /* ios_system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE48C61FDC79C500899DA7 /* ios_system.framework */; };
 		22FE48C81FDC79C500899DA7 /* ios_system.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE48C61FDC79C500899DA7 /* ios_system.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE531B0B1F20941200D71DB3 /* iVimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE531B0A1F20941200D71DB3 /* iVimTests.swift */; };
@@ -194,12 +202,22 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2293CA3A1FDC7DB300A96ADC /* libpdftex.dylib in Embed Frameworks */,
-				2293CA3B1FDC7DB300A96ADC /* libtexlua52.5.dylib in Embed Frameworks */,
-				2293CA371FDC7DB300A96ADC /* libbibtex.dylib in Embed Frameworks */,
-				2293CA381FDC7DB300A96ADC /* libkpathsea.6.dylib in Embed Frameworks */,
+				22E838242021F817004B6BA1 /* vimproc_ios.dylib in Embed Frameworks */,
+				22E838192021F817004B6BA1 /* libcurl.dylib in Embed Frameworks */,
+				22E8381A2021F817004B6BA1 /* libawk.dylib in Embed Frameworks */,
+				22E8381B2021F817004B6BA1 /* libshell.dylib in Embed Frameworks */,
+				22E8381C2021F817004B6BA1 /* libfiles.dylib in Embed Frameworks */,
+				22E8381D2021F817004B6BA1 /* libbibtex.dylib in Embed Frameworks */,
 				22FE48C81FDC79C500899DA7 /* ios_system.framework in Embed Frameworks */,
-				2293CA391FDC7DB300A96ADC /* libluatex.dylib in Embed Frameworks */,
+				22E8381E2021F817004B6BA1 /* libtar.dylib in Embed Frameworks */,
+				22E8381F2021F817004B6BA1 /* libluatex.dylib in Embed Frameworks */,
+				22E838202021F817004B6BA1 /* libpdftex.dylib in Embed Frameworks */,
+				22E838212021F817004B6BA1 /* Python_ios.framework in Embed Frameworks */,
+				22E838222021F817004B6BA1 /* libssh_cmd.dylib in Embed Frameworks */,
+				22E838232021F817004B6BA1 /* libtexlua52.5.dylib in Embed Frameworks */,
+				22E838252021F817004B6BA1 /* libtext.dylib in Embed Frameworks */,
+				22E838262021F817004B6BA1 /* lua_ios.framework in Embed Frameworks */,
+				22E838272021F817004B6BA1 /* libkpathsea.6.dylib in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +241,39 @@
 		2293CA2F1FDC7DAA00A96ADC /* libbibtex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbibtex.dylib; path = Frameworks/libbibtex.dylib; sourceTree = "<group>"; };
 		2293CA301FDC7DAB00A96ADC /* libkpathsea.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libkpathsea.6.dylib; path = Frameworks/libkpathsea.6.dylib; sourceTree = "<group>"; };
 		2293CA311FDC7DAB00A96ADC /* libluatex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libluatex.dylib; path = Frameworks/libluatex.dylib; sourceTree = "<group>"; };
+		22CE2893201E852100C5FACE /* vimproc_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = vimproc_ios.dylib; path = Frameworks/vimproc_ios.dylib; sourceTree = "<group>"; };
+		22CE2895201E852E00C5FACE /* vimproc_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = vimproc_ios.dylib; path = Frameworks/vimproc_ios.dylib; sourceTree = "<group>"; };
+		22E837ED2021F6FF004B6BA1 /* Python_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python_ios.framework; path = Frameworks/Python_ios.framework; sourceTree = "<group>"; };
+		22E837EE2021F6FF004B6BA1 /* lua_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lua_ios.framework; path = Frameworks/lua_ios.framework; sourceTree = "<group>"; };
+		22E837F12021F724004B6BA1 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = Frameworks/libcurl.dylib; sourceTree = "<group>"; };
+		22E837F22021F724004B6BA1 /* libpdftex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpdftex.dylib; path = Frameworks/libpdftex.dylib; sourceTree = "<group>"; };
+		22E837F32021F725004B6BA1 /* libawk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libawk.dylib; path = Frameworks/libawk.dylib; sourceTree = "<group>"; };
+		22E837F42021F725004B6BA1 /* libshell.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libshell.dylib; path = Frameworks/libshell.dylib; sourceTree = "<group>"; };
+		22E837F52021F725004B6BA1 /* libfiles.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfiles.dylib; path = Frameworks/libfiles.dylib; sourceTree = "<group>"; };
+		22E837F62021F725004B6BA1 /* libssh_cmd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssh_cmd.dylib; path = Frameworks/libssh_cmd.dylib; sourceTree = "<group>"; };
+		22E837F72021F726004B6BA1 /* libtexlua52.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtexlua52.5.dylib; path = Frameworks/libtexlua52.5.dylib; sourceTree = "<group>"; };
+		22E837F82021F726004B6BA1 /* libbibtex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbibtex.dylib; path = Frameworks/libbibtex.dylib; sourceTree = "<group>"; };
+		22E837F92021F726004B6BA1 /* libtext.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtext.dylib; path = Frameworks/libtext.dylib; sourceTree = "<group>"; };
+		22E837FA2021F727004B6BA1 /* libtar.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtar.dylib; path = Frameworks/libtar.dylib; sourceTree = "<group>"; };
+		22E837FB2021F727004B6BA1 /* libkpathsea.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libkpathsea.6.dylib; path = Frameworks/libkpathsea.6.dylib; sourceTree = "<group>"; };
+		22E837FC2021F727004B6BA1 /* libluatex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libluatex.dylib; path = Frameworks/libluatex.dylib; sourceTree = "<group>"; };
+		22E838092021F812004B6BA1 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = Frameworks/libcurl.dylib; sourceTree = "<group>"; };
+		22E8380A2021F812004B6BA1 /* libawk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libawk.dylib; path = Frameworks/libawk.dylib; sourceTree = "<group>"; };
+		22E8380B2021F813004B6BA1 /* libshell.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libshell.dylib; path = Frameworks/libshell.dylib; sourceTree = "<group>"; };
+		22E8380C2021F813004B6BA1 /* libfiles.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfiles.dylib; path = Frameworks/libfiles.dylib; sourceTree = "<group>"; };
+		22E8380D2021F813004B6BA1 /* libbibtex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbibtex.dylib; path = Frameworks/libbibtex.dylib; sourceTree = "<group>"; };
+		22E8380E2021F814004B6BA1 /* ios_system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ios_system.framework; path = Frameworks/ios_system.framework; sourceTree = "<group>"; };
+		22E8380F2021F814004B6BA1 /* libtar.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtar.dylib; path = Frameworks/libtar.dylib; sourceTree = "<group>"; };
+		22E838102021F814004B6BA1 /* libluatex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libluatex.dylib; path = Frameworks/libluatex.dylib; sourceTree = "<group>"; };
+		22E838112021F815004B6BA1 /* libpdftex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpdftex.dylib; path = Frameworks/libpdftex.dylib; sourceTree = "<group>"; };
+		22E838122021F815004B6BA1 /* Python_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python_ios.framework; path = Frameworks/Python_ios.framework; sourceTree = "<group>"; };
+		22E838132021F815004B6BA1 /* libssh_cmd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssh_cmd.dylib; path = Frameworks/libssh_cmd.dylib; sourceTree = "<group>"; };
+		22E838142021F816004B6BA1 /* libtexlua52.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtexlua52.5.dylib; path = Frameworks/libtexlua52.5.dylib; sourceTree = "<group>"; };
+		22E838152021F816004B6BA1 /* vimproc_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = vimproc_ios.dylib; path = Frameworks/vimproc_ios.dylib; sourceTree = "<group>"; };
+		22E838162021F816004B6BA1 /* libtext.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtext.dylib; path = Frameworks/libtext.dylib; sourceTree = "<group>"; };
+		22E838172021F816004B6BA1 /* lua_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lua_ios.framework; path = Frameworks/lua_ios.framework; sourceTree = "<group>"; };
+		22E838182021F817004B6BA1 /* libkpathsea.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libkpathsea.6.dylib; path = Frameworks/libkpathsea.6.dylib; sourceTree = "<group>"; };
+		22E838282021F834004B6BA1 /* vimproc_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = vimproc_ios.dylib; path = Frameworks/vimproc_ios.dylib; sourceTree = "<group>"; };
 		22FE48C61FDC79C500899DA7 /* ios_system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ios_system.framework; path = Frameworks/ios_system.framework; sourceTree = "<group>"; };
 		DE44D40B1F2095DB007AFD63 /* VimViewController+UITextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VimViewController+UITextInput.swift"; sourceTree = "<group>"; };
 		DE44D40E1F209600007AFD63 /* PickInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickInfoManager.swift; sourceTree = "<group>"; };
@@ -3015,11 +3066,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2293CA321FDC7DAB00A96ADC /* libpdftex.dylib in Frameworks */,
-				2293CA331FDC7DAB00A96ADC /* libtexlua52.5.dylib in Frameworks */,
-				2293CA341FDC7DAB00A96ADC /* libbibtex.dylib in Frameworks */,
-				2293CA351FDC7DAB00A96ADC /* libkpathsea.6.dylib in Frameworks */,
-				2293CA361FDC7DAB00A96ADC /* libluatex.dylib in Frameworks */,
+				22E837EF2021F6FF004B6BA1 /* Python_ios.framework in Frameworks */,
+				22E837F02021F6FF004B6BA1 /* lua_ios.framework in Frameworks */,
+				22CE2894201E852100C5FACE /* vimproc_ios.dylib in Frameworks */,
 				22FE48C71FDC79C500899DA7 /* ios_system.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3051,6 +3100,22 @@
 		22D4BE5D1FC076F4007EDB4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22E837F32021F725004B6BA1 /* libawk.dylib */,
+				22E837F82021F726004B6BA1 /* libbibtex.dylib */,
+				22E837F12021F724004B6BA1 /* libcurl.dylib */,
+				22E837F52021F725004B6BA1 /* libfiles.dylib */,
+				22E837FB2021F727004B6BA1 /* libkpathsea.6.dylib */,
+				22E837FC2021F727004B6BA1 /* libluatex.dylib */,
+				22E837F22021F724004B6BA1 /* libpdftex.dylib */,
+				22E837F42021F725004B6BA1 /* libshell.dylib */,
+				22E837F62021F725004B6BA1 /* libssh_cmd.dylib */,
+				22E837FA2021F727004B6BA1 /* libtar.dylib */,
+				22E837F72021F726004B6BA1 /* libtexlua52.5.dylib */,
+				22E837F92021F726004B6BA1 /* libtext.dylib */,
+				22CE2895201E852E00C5FACE /* vimproc_ios.dylib */,
+				22E837EE2021F6FF004B6BA1 /* lua_ios.framework */,
+				22E837ED2021F6FF004B6BA1 /* Python_ios.framework */,
+				22CE2893201E852100C5FACE /* vimproc_ios.dylib */,
 				2293CA2F1FDC7DAA00A96ADC /* libbibtex.dylib */,
 				2293CA301FDC7DAB00A96ADC /* libkpathsea.6.dylib */,
 				2293CA311FDC7DAB00A96ADC /* libluatex.dylib */,
@@ -6622,6 +6687,23 @@
 		DE531AE91F20941100D71DB3 = {
 			isa = PBXGroup;
 			children = (
+				22E838282021F834004B6BA1 /* vimproc_ios.dylib */,
+				22E8380E2021F814004B6BA1 /* ios_system.framework */,
+				22E8380A2021F812004B6BA1 /* libawk.dylib */,
+				22E8380D2021F813004B6BA1 /* libbibtex.dylib */,
+				22E838092021F812004B6BA1 /* libcurl.dylib */,
+				22E8380C2021F813004B6BA1 /* libfiles.dylib */,
+				22E838182021F817004B6BA1 /* libkpathsea.6.dylib */,
+				22E838102021F814004B6BA1 /* libluatex.dylib */,
+				22E838112021F815004B6BA1 /* libpdftex.dylib */,
+				22E8380B2021F813004B6BA1 /* libshell.dylib */,
+				22E838132021F815004B6BA1 /* libssh_cmd.dylib */,
+				22E8380F2021F814004B6BA1 /* libtar.dylib */,
+				22E838142021F816004B6BA1 /* libtexlua52.5.dylib */,
+				22E838162021F816004B6BA1 /* libtext.dylib */,
+				22E838172021F816004B6BA1 /* lua_ios.framework */,
+				22E838122021F815004B6BA1 /* Python_ios.framework */,
+				22E838152021F816004B6BA1 /* vimproc_ios.dylib */,
 				DE5C50C41F6E13CD00373B92 /* ctags58 */,
 				DE44D42D1F209A89007AFD63 /* vim */,
 				DE531AF41F20941100D71DB3 /* iVim */,
@@ -7070,7 +7152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D3640F1FC45ECA008A8A76 /* if_python.c in Sources */,
 				22D364031FC37D95008A8A76 /* if_lua.c in Sources */,
 				DE7BA7D21F21F1F200705E67 /* undo.c in Sources */,
 				DE7BA7D41F21F22A00705E67 /* sha256.c in Sources */,
@@ -7160,6 +7241,7 @@
 				DE7BA7C81F21EFBA00705E67 /* ops.c in Sources */,
 				DE7BA7BF1F21EE9100705E67 /* ex_cmds.c in Sources */,
 				DE5C518A1F6E154200373B92 /* fortran.c in Sources */,
+				22CE288E201E7D0500C5FACE /* if_python.c in Sources */,
 				DE7BA79B1F21A77500705E67 /* VimViewController+UIDocumentPickerDelegate.swift in Sources */,
 				DE7234531F739C640033F3E8 /* VimURLHandler.swift in Sources */,
 				DE7BA7B71F21E91000705E67 /* ui.c in Sources */,
@@ -7405,9 +7487,11 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				OTHER_CFLAGS = (
-					"-D",
-					FEAT_PYTHON,
 					"-DFEAT_LUA",
+					"-DFEAT_PYTHON",
+					"-DHAVE_DLOPEN",
+					"-DHAVE_DLSYM",
+					"-DHAVE_DLFCN_H",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Nicolas-Holzschuch.ivim";
@@ -7443,9 +7527,11 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				OTHER_CFLAGS = (
-					"-D",
-					FEAT_PYTHON,
 					"-DFEAT_LUA",
+					"-DFEAT_PYTHON",
+					"-DHAVE_DLOPEN",
+					"-DHAVE_DLSYM",
+					"-DHAVE_DLFCN_H",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Nicolas-Holzschuch.ivim";
