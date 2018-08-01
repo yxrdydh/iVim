@@ -250,7 +250,7 @@ extension EKOperationInfo {
     private static func operations(from object: Any?) throws -> [EKOperationInfo] {
         var result = [EKOperationInfo]()
         if let array = object as? NodeArray {
-            result = try array.compactMap { try EKOperationInfo(object: $0) }
+            result = try array.flatMap { try EKOperationInfo(object: $0) }
         } else if let op = try EKOperationInfo(object: object) {
             result.append(op)
         }
